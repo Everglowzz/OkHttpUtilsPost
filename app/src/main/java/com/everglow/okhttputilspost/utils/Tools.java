@@ -16,7 +16,7 @@ import android.os.Environment;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.everglow.mvpdemo.application.MyApplication;
+import com.everglow.okhttputilspost.application.MyApplication;
 
 import java.security.MessageDigest;
 import java.text.SimpleDateFormat;

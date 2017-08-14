@@ -1,10 +1,9 @@
-apply plugin: 'com.android.application'
-
+apply plugin: 'com.android.library'
 android {
     compileSdkVersion 23
     buildToolsVersion '23.0.3'
     defaultConfig {
-        applicationId "com.everglow.okhttputilspost"
+       // applicationId "com.everglow.okhttputilspost"
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 1

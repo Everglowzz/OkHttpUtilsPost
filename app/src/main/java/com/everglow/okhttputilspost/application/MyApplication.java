@@ -7,7 +7,7 @@ import android.app.Application;
 
 public  class MyApplication extends Application   {
 
-    private static MyApplication app;
+    public static MyApplication app;
     @Override
     public void onCreate() {
         super.onCreate();
