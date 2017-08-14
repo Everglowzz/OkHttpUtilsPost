@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.ITDreamSKY'
 android {
     compileSdkVersion 23
     buildToolsVersion '23.0.3'
@@ -28,5 +30,7 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
     compile 'com.squareup.retrofit2:converter-gson:2.0.0'
     compile 'com.zhy:okhttputils:2.6.2'
+
+
 
 }
