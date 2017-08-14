@@ -15,11 +15,11 @@ import java.util.Map;
  * Created by EverGlow on 2017/8/12 10:32
  */
 
-public  class RqeuestNetWork<T>   {
+public  class RequestNetWork<T>   {
 
     private Context context;
 
-    public RqeuestNetWork(Context context) {
+    public RequestNetWork(Context context) {
         this.context = context;
     }
 
