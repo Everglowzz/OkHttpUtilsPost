@@ -46,7 +46,7 @@ public  class RequestNetWork<T>   {
                 .url(URL)
                 .params(builderParams(map))
                 .build()
-                .buildCall(new DataCallBack(context,callback,type,message,isShow));
+                .execute(new DataCallBack(context,callback,type,message,isShow));
 
     }
 
