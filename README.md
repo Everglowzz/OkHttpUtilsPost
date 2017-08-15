@@ -1,10 +1,10 @@
-## 基于OKHttpUtils的post请求二次封装
-## 加入了网络请求的Log拦截打印
-## 网络请求封装ProgressDialog，可自定义文字
-## 请求参数<键值>非空判断
+## 1、基于OKHttpUtils的post请求二次封装
+## 2、加入了网络请求的Log拦截打印
+## 3、网络请求封装ProgressDialog，可自定义文字
+## 4、请求参数<键值>非空判断
 
 
-###  添加依赖
+###  一、添加依赖
 
 ###   Step 1. Add it in your root build.gradle at the end of repositories:
 	allprojects {
@@ -22,7 +22,7 @@
 
 
 
-###  调用方式
+###  二、调用方式
 
         
         new RequestNetWork<UserInfoBean>(context).request(map, GlobalConfig.LOGIN_URl, new HttpCallBack<UserInfoBean>() {
@@ -38,7 +38,7 @@
             }
         },UserInfoBean.class,"正在登录..");
 	
-###  参数介绍
+###  三、参数介绍
 
      @param map  参数集合
      @param URL  访问接口
