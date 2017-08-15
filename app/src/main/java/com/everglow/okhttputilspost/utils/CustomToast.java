@@ -10,8 +10,8 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import com.everglow.mvpdemo.R;
-import com.everglow.mvpdemo.application.MyApplication;
+import com.everglow.okhttputilspost.R;
+import com.everglow.okhttputilspost.application.MyApplication;
 
 
 /**
