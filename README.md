@@ -43,7 +43,7 @@
      @param map  参数集合
      @param URL  访问接口
      @param callback  网络请求回调，直接使用已封装好的 HttpCallBack
-     @param type  json解析的对象类型，以class类型传入
+     @param type  json解析的对象类型，以class类型传入
      @param message 请求弹窗的文字显示，默认显示（正在加载...）
      @param isShow 是否显示请求弹窗，默认显示
      
