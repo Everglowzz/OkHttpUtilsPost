@@ -17,7 +17,7 @@
   ###  Step 2. Add the dependency
   
   	dependencies {
-	        compile 'com.github.Everglowzz:OkHttpUtilsPost:1.0.5'
+	        compile 'com.github.Everglowzz:OkHttpUtilsPost:1.1.0'
 	}
 
 
