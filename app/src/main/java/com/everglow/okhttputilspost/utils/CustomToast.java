@@ -66,12 +66,9 @@ public class CustomToast {
     };
 
     public CustomToast(Context context) {
-        Context mContext = context.getApplicationContext();
-        if (mContext == null) {
-            mContext = context;
-        }
-        this.context = mContext;
-        windowManager = (WindowManager) mContext
+      
+        this.context = context;
+        windowManager = (WindowManager) context
                 .getSystemService(Context.WINDOW_SERVICE);
         init();
     }
